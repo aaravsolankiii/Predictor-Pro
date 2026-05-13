@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* yahan se output: 'export' hata diya */
+  output: 'export',
+  images: {
+    unoptimized: true, // Required for static export on Netlify
+  },
 };
 
 export default nextConfig;
