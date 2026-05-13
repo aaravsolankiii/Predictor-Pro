@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  /* yahan se output: 'export' hata diya */
 };
 
 export default nextConfig;
